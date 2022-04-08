@@ -86,6 +86,7 @@ img {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
 }
 
 .header-logo {
@@ -398,7 +399,7 @@ img {
 
 .card-subscribe {
   padding: 20px 24px;
-  border: 1px solid #eeeeee;
+  border: 1 px solid #eeeeee;
   border-top: 0;
 }
 
