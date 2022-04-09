@@ -157,7 +157,7 @@ img {
 
 .hero {
   background-color: var(--hero-background-color);
-  padding: 200px 252px 200px 252px;
+  padding: 200px 0;
 }
 
 .hero-title {
@@ -169,6 +169,7 @@ img {
   text-transform: uppercase;
   color: var(--hero-text-color);
   max-width: 696px;
+  margin: 0 auto;
   margin-bottom: 30px;
 }
 
@@ -185,10 +186,10 @@ img {
   line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
+  display: block;
   padding: 10px 32px;
   min-width: 136px;
-  margin-left: 250px;
-  margin-right: 250px;
+  margin: 0 auto;
   border: 0;
   border-radius: 4px;
 }
@@ -201,6 +202,10 @@ img {
 
 .features-list {
   display: flex;
+}
+
+.features-item {
+  width: calc((100% - 90px) / 4);
 }
 
 .features-item + .features-item {
@@ -270,17 +275,20 @@ img {
   margin-left: 30px;
 }
 
+.our-team-description {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .our-team-name {
   font-weight: 500;
   font-size: 16px;
-  margin-top: 30px;
 }
 
 .our-team-position {
   font-size: 16px;
   color: var(--secondary-text-color);
   margin-top: 10px;
-  margin-bottom: 30px;
 }
 
 /* Футер */
@@ -289,6 +297,8 @@ img {
   letter-spacing: 0.03em;
   line-height: 1.71;
   background-color: var(--footer-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo {
@@ -297,7 +307,6 @@ img {
   font-size: 26px;
   line-height: 1.17;
   color: var(--first-footer-logo-color);
-  padding-top: 60px;
   display: block;
   margin-bottom: 20px;
 }
@@ -308,10 +317,6 @@ img {
 
 .footer-contacts {
   font-style: normal;
-}
-
-.address {
-  padding-bottom: 60px;
 }
 
 .footer-item + .footer-item {
@@ -399,7 +404,7 @@ img {
 
 .card-subscribe {
   padding: 20px 24px;
-  border: 1 px solid #eeeeee;
+  border: 1px solid #eeeeee;
   border-top: 0;
 }
 
